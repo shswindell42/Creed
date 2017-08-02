@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="7bd8edc5-ee17-4043-bbab-3820bcde40a6" ChangeDateTime="07/24/2017 18:39:20">
+    <Property Name="ElementName" Value="[dbo].[QAProcess]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="ParentElementName" Value="[dbo]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="Process" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="b5f80233-7557-4e64-9869-9f23ed4b9335" ChangeDateTime="07/24/2017 18:39:28">
+    <Property Name="ElementName" Value="[dbo].[Process].[QAProcessKey]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Process]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ProcessKey" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="534f81d1-98a7-407c-bfb5-9e4dec801900" ChangeDateTime="07/24/2017 18:39:44">
+    <Property Name="ElementName" Value="[dbo].[QAProcessScreen]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="ParentElementName" Value="[dbo]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="ProcessScreen" />
+  </Operation>
+</Operations>

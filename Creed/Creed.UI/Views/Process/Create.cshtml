@@ -1,0 +1,14 @@
+﻿
+@{
+    ViewBag.Title = "Create";
+}
+
+<h2>Create Process</h2>
+<form method="post" action="/Process/Create">
+    <div class="form-group">
+        <label for="ProcessName">Process Name: </label> <input type="text" class="form-control" name="ProcessName" value="" />
+        <label for="ProcessDescription">Process Description: </label> <input type="text" class="form-control" name="ProcessDescription" value="" />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Create</button>
+</form>
